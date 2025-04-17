@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 166px;
+}
+
+header {
+    background-image: url("../images/bg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerContainer {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phoneContainer {
+    color: white;
+    margin-left: 2%;
+    font-size: 150%;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttonContainer {
+    margin-left: 3%;
+}
+
+.button {
+    background-color: #FF7400;
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    font-weight: bold;
+}
+
+.cartContainer {
+    position: relative;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    height: 50px;
+    margin-left: 3%;
+}
+
+.cartImg {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    size: 125%;
+}
+
+nav {
+    margin-left: 25%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.number {
+    font-weight: bold;
+}
+
+.welcomeContainer {
+    color: white;
+    padding-left: 3%;
+    padding-top: 25%;
+    width: 30%;
+    text-align: center;
+}
+
+.welcomeContainer button {
+    margin-top: 5%;
+}
+
+.welcomeContainer p {
+    margin-top: 3%;
+    font-size: 150%;
+}
+
+.welcomeContainer h2 {
+    font-size: 250%;
+    color: #D67E35;
+}
+
+.welcomeContainer h1 {
+    font-size: 500%;
+    color: #D67E35;
+}
+
+.lines:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: white;
+    left: 375px;
+    top: 845px;
+}
+
+.lines:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: white;
+    left: 700px;
+    top: 845px;
+}
+
+.welcomeContainer2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.welcomeContainer2 div {
+    background-color: white;
+    width: 349px;
+    height: 328px;
+    margin-top: -149px;
+    margin-right: 31px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    padding: 0px 10px;
+}
+
+.welcomeContainer2 .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.welcomeContainer2 .desc {
+    color: #656363;
+    text-align: center;
+    font-size: 26px;
+}
+
+.welcomeContainer2 .img {
+    display: flex;
+    justify-self: center;
+    padding-top: 31px;
+}
+
+.highlight {
+    color: #D67E35
+}
+
+.mainContainer {
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.mainContainer .title {
+    font-size: 54px;
+    margin-left: 3%;
+}
+
+.mainContainer .history_text {
+    width: 444px;
+    height: 217px;
+    text-align: center;
+    color: #656363;
+    margin-top: 1%;
+}
+
+.stats_container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+}
+
+.stats_container .stats {
+    margin-right: 3%;
+}
+
+.mainContainer .stats .num {
+    color: #BC9060;
+    text-align: center;
+    font-size: 40px;
+}
+
+.mainContainer .stats .stat_name {
+    font-size: 20px;
+    text-align: center;
+}
+
+.history {
+    width: 100%;
+}
+
+.mainContainer .history_images {
+    margin-left: 50%;
+    margin-top: -25%;
+}
+
+.mainContainer .history_images img {
+    height: 300px;
+    width: 233px;
+}
