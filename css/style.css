@@ -204,11 +204,134 @@ nav a {
 }
 
 .mainContainer .history_images {
-    margin-left: 50%;
-    margin-top: -25%;
+    position: relative;
+    margin-left: 35%;
+    margin-top: -15%;
 }
 
-.mainContainer .history_images img {
+.history_images .img_1 {
+    position: absolute;
+    z-index: 999;
     height: 300px;
     width: 233px;
+    box-shadow: 20px 0px 30px 3px #00000080;
+}
+
+.history_images .img_2 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 15%;
+    margin-top: -5%;
+    width: 255px;
+    height: 430px;
+}
+
+.history_images .img_3 {
+    position: absolute;
+    z-index: 2;
+    margin-left: 27%;
+    margin-top: 15%;
+    height: 300px;
+    width: 233px;
+}
+
+.history_images .img_4 {
+    position: absolute;
+    z-index: 0;
+    margin-left: 25%;
+    margin-top: -3%;
+    height: 300px;
+    width: 233px;
+}
+
+.burgerMenu {
+    display: none;
+}
+
+@media (max-width: 2555px) {
+    .lines:after {
+        content: none;
+    }
+    .lines:before {
+        content: none;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    
+    .mainContainer .history_images {
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+
+    .history .title,
+    .history .history_text,
+    .history .stats_container .stats {
+        width: auto;
+    }
+}
+
+@media (max-width: 1845px) {
+
+    .burgerMenu {
+        display: block;
+    }
+
+    .headerContainer {
+        justify-content: space-between;
+    }
+
+    .headerContainer nav {
+        display: none;
+    }
+
+    .cartContainer {
+        display: none;
+    }
+
+    .phoneContainer {
+        display: none;
+    }
+
+    .buttonContainer {
+        display: none;
+    }
+}
+
+@media (max-width: 1340px) {
+    .welcomeContainer {
+        position: static;
+        width: 100%;
+    }
+
+    .welcomeContainer2 {
+        flex-direction: column;
+    }
+
+    .welcomeContainer2 div {
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .welcomeContainer p {
+        font-size: 450%;
+    }
+    
+    .welcomeContainer h2 {
+        font-size: 550%;
+    }
+    
+    .welcomeContainer h1 {
+        font-size: 800%;
+    }
+}
+
+.mainContainer { 
+    color: blue; 
+} 
+@media (max-width: 550px) { 
+    .mainContainer { 
+        color:red; 
+    } 
 }
