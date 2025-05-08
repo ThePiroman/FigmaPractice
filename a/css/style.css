@@ -278,10 +278,6 @@ nav a {
         display: block;
     }
 
-    .headerContainer {
-        justify-content: space-between;
-    }
-
     .headerContainer nav {
         display: none;
     }
@@ -297,6 +293,10 @@ nav a {
     .buttonContainer {
         display: none;
     }
+
+    .logoContainer {
+        align-self: self-start;
+    }
 }
 
 @media (max-width: 1340px) {
@@ -310,28 +310,10 @@ nav a {
     }
 
     .welcomeContainer2 div {
-        margin-top: 5%;
-        width: 100%;
+        margin-top: 10%;
     }
 
-    .welcomeContainer p {
-        font-size: 450%;
+    .mainContainer {
+        margin-top: 200%;
     }
-    
-    .welcomeContainer h2 {
-        font-size: 550%;
-    }
-    
-    .welcomeContainer h1 {
-        font-size: 800%;
-    }
-}
-
-.mainContainer { 
-    color: blue; 
-} 
-@media (max-width: 550px) { 
-    .mainContainer { 
-        color:red; 
-    } 
 }
